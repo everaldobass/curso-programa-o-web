@@ -1,4 +1,4 @@
-# Desenvolvimento de um gerênciador de Tarefas
+# Desenvolvimento de um Gerênciador de Tarefas
 
 ### Referência do Projeto Original
 - Professor Dimitri - https://www.youtube.com/playlist?list=PL2Fdisxwzt_d590u3uad46W-kHA0PTjjw
@@ -7,8 +7,8 @@
 
  Desenvolvimento com o objetivo de fixar o conhecimento das tecnologias HTML, CSS e JavaScript, toda documentação está com os comentários.
  
- ## Estrutura do Documento HTML
- <img src='./curso-programacao-web/projeto/img/tarefa.png' width='100%'/>
+ ## Estrutura do Curso
+ <img src='./curso-pramacao-web/img/tarefa.png' width='100%'/>
  
 ## Introdução
 ### Aula 01 - JS Interno e Externo
