@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Eventos</title>
+</head>
+<body >
+
+    <h4>Eventos com JS - Onclick</h4>
+    <button onclick="eventoClick()"> Click Único</button>
+
+    <h4>Eventos com JS - dbl click</h4>
+    <button onclick="eventoDBLClick()">Click Duplo</button>
+
+    <h4>onmouseover</h4>
+    <div id="teste" class="mouser" onmousemove="adicionaTexto()" onmouseout="viraAzul()" onmouseover="viraVermelho()" >
+    </div>
+    
+    <br>
+    <input onfocus="limpaTexto()" id="campoTexto" type="text" style="padding:60px; 
+     font-size: 20px;" placeholder="Digite" value="Tem texto">
+
+    <script src="/js/aula10.js"></script>
+</body>
+</html>
