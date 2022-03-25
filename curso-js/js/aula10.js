@@ -19,3 +19,37 @@
  - Evento onresize - Dispara quando há um redirecionamento da Janela
  
  */
+// Eventos click
+function eventoClick(){
+   // alert("Aciona um evento de click");
+    document.body.style.backgroundColor = "Yellow";
+}
+
+// Evento double click
+function eventoDBLClick(){
+    document.write("Evento click duplo");
+}
+
+
+// onmouseover - Aciona o vira vermelho
+function viraVermelho(){
+    let div = document.getElementById("teste") ;
+    div.style.backgroundColor = "red";
+}
+
+
+// ounmouseout - Aciona o vira Azul
+function viraAzul(){
+    let div = document.getElementById("teste") ;
+    div.style.backgroundColor = "blue";
+}
+
+//
+function adicionaTexto(){
+    let p = document.getElementById("teste");
+    p.append("Mouse Moveu!<br> ");
+}
+
+function limpaTexto(){
+    document.getElementById("campoTexto").value = "";
+}
