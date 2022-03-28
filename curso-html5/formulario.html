@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    
+</head>
+<body>
+    <h2>Formulários</h2>
+
+    <form action="nome_arquivo" method="post">
+
+        <label for="name">Nome: </label>
+        <input id="name" type="text" placeholder="Digite seu nome " required>
+
+         <br><br>
+        <label for="sobrenome">Sobre Nome: </label>
+        <input id="sobrenome" type="text" placeholder="Digite seu sobrenome " required>
+
+        <br><br>
+        <label for="email">Email: </label>
+        <input id="email" type="email" placeholder="Digite seu E-amil " required>
+
+        <br><br>
+        <label for="senha">Senha: </label>
+        <input id="senha" type="password" placeholder="Digite sua Senha " required>
+
+        <br><br>
+        <h2>Animal de Estimação</h2>
+        <input type="radio" name="animal" id="dog" value="Cachorro">
+        <label for="dog">Cachorro</label>
+
+        <br><br>
+        <input type="radio" name="animal" id="cat" value="Gato">
+        <label for="gato">Gato</label>
+
+        <br><br>
+        <h2>Que você tem em casa</h2>
+        <input type="checkbox" name="item1" id="" value="TV">
+        <label for="tv">Televisão</label>
+
+        <br><br>
+        <input type="checkbox" name="item2" id="" value="desktop">
+        <label for="tv">Desktop</label>
+
+        <br><br>
+        <h2> Escolha uma cor </h2>
+        <select name="cores" id="">
+            <option selected disabled value="vermelho">Selecione uma opção</option>
+            <option value="vermelho">Vermelho</option>
+            <option value="verde">Verde</option>
+            <option value="azul">Azul</option>
+            <option value="laranja">Laranja</option>
+        </select>
+
+        <br><br>
+        <h2>Digite uma mensagem:</h2>
+        <textarea name="mensagem" id="" cols="50" rows="10" placeholder="Digite um Texto">
+
+        </textarea>
+
+
+        <br><br>
+        <input type="submit" value="Enviar Formulário">
+
+        <button>Clique aqui</button>
+
+    </form>
+
+    <a href="/index.html"></a>
+</body>
+</html>
