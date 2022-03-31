@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Aula 14 - Propriedade Display*/
+ 
+.display{
+    border: 1px solid red;
+}
+
+
+.borda{
+    border:1px solid green;
+}
+
+.link{
+    border: solid 2px orangered;
+    font-size: 20px;
+
+}
+
+.paragrafo{
+    border: solid 1px rgb(133, 220, 20);
+}
+
+h2{
+    display: none;
+    border: 1px solid green;
+}
+
+
+.azul{
+    background: blue;
+    font-size: 20px;
+    color: wheat;
+}
+
+.amarelo{
+    background: yellow;
+    font-size: 20px;
+    color: rgb(241, 168, 9);
+}
+
+.vermelho{
+
+    background: red;
+    font-size: 20px;
+    color: wheat;
+}
+
+li{
+    display: inline;
+}
+
+.bloco{
+    display: flex;
+    width: 100%;
+    height: 150%;
+    text-align: center;
+    
+}
+
+.bloco1{
+    background-color: blueviolet;
+    width: 33%;
+    height: 150px;
+    
+   
+}
+
+.bloco2{
+    background-color: chocolate;
+    width: 33%;
+    height: 150px;
+}
+
+
+.bloco3{
+    background-color: chartreuse;
+    width: 33%;
+    height: 150px;
+}
+
+.ex1{
+    max-width: 800px;
+    border: 1px solid red;
+}
+
+.ex2{
+    max-width: 800px;
+    border: 1px solid rgb(60, 255, 0);
+}
